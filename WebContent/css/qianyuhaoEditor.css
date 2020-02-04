@@ -1,0 +1,120 @@
+#wrapper {
+	margin-top: 50px;
+}
+
+#title {
+	
+	margin-left:200px;
+	width: 600px;
+	height: 40px;
+	font-size: 16px;
+	display: inline-block;
+	box-sizing: border-box;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+select{
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+#text-area {
+	margin: 0 auto;
+	background: white;
+	padding: 10px;
+	height: auto;
+	width: 800px;
+	min-height: 800px;
+	max-height: 800px;
+	color: black;
+	border: 1px #00b1e4 solid;
+	outline: none;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+#control-area {
+	margin-left: 250px;
+	margin-bottom: 15px;
+}
+
+.btn {
+	display: block;
+	font-size: 12px;
+	text-decoration: none !important;
+	padding: 3px 5px;
+	color: white;
+	background: #00b1e4;
+	border: 1px #00b1e4 solid;
+	margin: 3px;
+	border-radius: 0;
+}
+
+.btn:hover {
+	color: white
+}
+
+.btn:focus, /*清除btn按钮点击出现的边框*/ .btn:active:focus, .btn.active:focus,
+	.btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.left {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.middle {
+	border-radius: 0;
+}
+
+.right {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.btn-group {
+	display: inline-block;
+}
+
+.btn-group .btn {
+	margin-right: -5px;
+	display: inline-block;
+}
+
+.btn-group .right {
+	margin-right: 10px;
+}
+
+.last {
+	font-size: 20px;
+	width: 90px;
+	height: 38px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	margin-right: 20px;
+}
+
+.last:hover {
+	background: white;
+	color: #00b1e4;
+}
+
+.operation {
+	margin-top: 10px;
+	margin-right: 180px;
+	margin-bottom: 10px;
+}
+
+.clearfix::after {
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}

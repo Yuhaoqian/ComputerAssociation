@@ -1,0 +1,14 @@
+/*初始化样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 14px;
+	font-family:"宋体";
+}
+
+ul,ol{
+	list-style: none;
+}

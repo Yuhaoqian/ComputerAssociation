@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>修改个人资料 - 计算机协会 - 江苏科技大学</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/info.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/info.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="profile-card js-profile-card">
+
+        <div class="profile-card__cnt js-profile-cnt">
+            <form action="#" class="profile-card-social">
+            	<h1>修改个人资料</h1>
+                <table class="form-table">
+                	
+                    <tr>
+                        <td><label for="name" class="form-label">姓名:</label></td>
+                        <td><input type="text" class="profile-card-social__item" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="id" class="form-label">学号:</label></td>
+                        <td><input type="text" class="profile-card-social__item" id="id" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label class="form-label">性别:</label></td>
+                        <td>
+                            <select name="sex" id="gender" class="profile-card-social__item">
+                                <option value="male">男</option>
+                                <option value="female">女</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="major" class="form-label">专业:</label></td>
+                        <td><input type="text" class="profile-card-social__item" id="major"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email" class="form-label">电子邮箱:</label></td>
+                        <td><input type="text" class="profile-card-social__item" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qq" class="form-label">QQ:</label></td>
+                        <td><input type="text" class="profile-card-social__item" id="qq"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tel" class="form-label">联系电话:</label></td>
+                        <td><input type="text" class="profile-card-social__item" id="tel"></td>
+                    </tr>
+                </table>
+            </form>
+            <div class="profile-card-ctr">
+                <button class="profile-card__button button--blue" id="submit">提交</button>
+                <button class="profile-card__button button--orange" id="cancel">取消</button>
+                <button class="profile-card__button button--yellow" id="modify">修改</button>
+                <button class="profile-card__button button--yellow" id="return">回到首页</button>
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="profile-card__overlay">
+    <div class="profile-card-message">
+        <div class="profile-tip">
+            Tips
+        </div>
+        <p class="profile-content">输入的信息有误，请重新输入</p>
+        <div class="profile-card-form__bottom">
+            <button class="profile-card__button button--blue" id="ok">确认</button>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

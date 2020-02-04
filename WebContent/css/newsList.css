@@ -1,0 +1,111 @@
+#activity{
+	/*border:1px solid red;*/
+	margin-bottom:50px;
+}
+.container{
+	width: 960px;
+	height: 480px;
+/*	background-color: pink;*/
+	margin:0 auto;
+}
+/*.hd01{
+	height: 40px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: 700;
+	color: #2F64A7;
+	margin: 0 auto;
+	line-height: 40px;
+	text-align: center;
+}
+.hd02{
+	height: 20px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #A8A8A7;
+	margin: 0 auto;
+	line-height: 20px;
+	text-align: center;
+}*/
+.ctLeft{
+	width: 340px;
+	height: 400px;
+	margin-left: 30px;
+	background-color: lightyellow;
+	border-radius: 10px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+.ctLeft li{
+	width: 340px;
+	height: 400px;
+	display: inline-block;
+}
+.ctLeft ul li{
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/lq.png);
+}
+.circle{
+	width: 100%;
+	height: 30px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	font-size: 12px;
+	line-height: 30px;
+}
+.circle ul{
+	width: 340px;
+	height:30px;
+	line-height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -40px;
+	top: 50%;
+	margin-top: -12px;
+	text-align: center;
+	
+}
+.circle li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 3px;
+	background-color: #CCCCCC;
+}
+.circle li:hover{
+	background-color: white;
+}
+.ctRight{
+	width: 550px;
+	height: 400px;
+	background-color: #F4F4F4;
+	border-radius: 10px;
+	float: right;
+	margin-right: 6px;
+/*	display: inline-block;*/
+}
+
+.ctRight ul{
+	width: 530px;
+	height: 400px;
+	margin-top: 10px;
+	margin-left: 20px;
+/*	background-color: yellow;*/
+	display: inline-block;
+}
+.ctRight li{
+	height: 45px;
+	line-height: 45px;
+	font-family: "微软雅黑";
+	color: #2F64A7;
+	border-bottom: 1px #A8A8A7 solid;
+}
+.ctRight li a:hover{
+	cursor:pointer;
+	color:#ffffff;
+}

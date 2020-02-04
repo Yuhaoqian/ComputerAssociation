@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>发布文章 - 计算机协会 - 江苏科技大学张家港校区</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="" name="keywords">
+<meta content="" name="description">
+
+<!-- Favicons -->
+<link href="img/favicon.png" rel="icon">
+<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Google Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
+	rel="stylesheet">
+
+<!-- Bootstrap CSS File -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Libraries CSS Files -->
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css"
+	rel="stylesheet">
+<link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+<!-- Main Stylesheet File -->
+<link href="css/homepage.css" rel="stylesheet">
+<link href="css/write.css" rel="stylesheet">
+<link href="css/qianyuhaoEditor.css" rel="stylesheet">
+<link href="css/a.css" rel="stylesheet">
+</head>
+
+<body id="body">
+
+	<!--==========================
+    Top Bar
+  ============================-->
+	<!-- <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">name@websitename.com</a>
+        <i class="fa fa-phone"></i> +1 2345 67855 22
+      </div>
+      <div class="social-links float-right">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </section> -->
+
+	<!--==========================
+    Header
+  ============================-->
+	<header id="header">
+		<div class="container">
+
+			<div id="logo" class="pull-left">
+				<h1>
+					<a href="#body" class="scrollto"><span>JUST</span>计算机协会</a>
+				</h1>
+				<!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+			</div>
+
+			<nav id="nav-menu-container">
+				<ul class="nav-menu">
+					<li><a href="index.html" id="homepage">首页</a></li>
+					<li><a href="about.html" id="aboutus">创作团队</a></li>
+					<li class="menu-active"><a href="dataArea.jsp" id="data_area">文章专区</a></li>
+					<li><a href="download.html" id="download_area">资料下载</a></li>
+					<li><a href="Login.html" id="login1">登录/注册</a></li>	
+				</ul>
+			</nav>
+			<!-- #nav-menu-container -->
+		</div>
+	</header>
+	<!-- #header -->
+	<!--==========================
+    Intro Section
+  ============================-->
+	<!-- <section id="intro">
+
+		<div class="intro-content">
+			<h2>
+				<span>Inspire</span><br>计算机协会欢迎您！
+			</h2>
+			<div>
+				<a class="btn-get-started scrollto" id="login2" href="Login.html">加入我们</a>
+			</div>
+		</div>
+		<div style="background-image: url('img/intro-carousel/hh.jpg');"></div>
+	</section> -->
+	<!-- #intro -->
+
+	<main id="main">
+
+
+		<div class="w">
+			<div id="wrapper">
+				<input type="text" placeholder="输入文章标题" id="title"> <select
+					name="type" id="type">
+					<option value="C/C++">C/C++</option>
+					<option value="Java">Java</option>
+					<option value="Python">Python</option>
+					<option value="数据结构">数据结构</option>
+					<option value="数据库">数据库</option>
+					<option value="机器学习">机器学习</option>
+					<option value="操作系统">操作系统</option>
+					<option value="组成原理">组成原理</option>
+
+
+				</select>
+				<div id="control-area">
+					<div class="btn-group">
+						<a href="#" class='btn left blue' data-command='undo'
+							onclick="changeStyle(this.dataset)">◀撤销</a> <a href="#"
+							class='btn right blue' data-command='redo'
+							onclick="changeStyle(this.dataset)">重做▶</a>
+					</div>
+					<div class="btn-group">
+						<a href="#" class='btn left grey' data-command='italic'
+							onclick="changeStyle(this.dataset)">斜体</a> <a href="#"
+							class='btn middle grey' data-command='bold'
+							onclick="changeStyle(this.dataset)">粗体</a> <a href="#"
+							class='btn middle grey' data-command='underline'
+							onclick="changeStyle(this.dataset)">下划线</a> <a href="#"
+							class='btn right grey' data-command='strikeThrough'
+							onclick="changeStyle(this.dataset)">删除线</a>
+					</div>
+					<div class="btn-group">
+						<a href="#" class='btn left blue' data-command='justifyLeft'
+							onclick="changeStyle(this.dataset)">左</a> <a href="#"
+							class='btn middle blue' data-command='justifyCenter'
+							onclick="changeStyle(this.dataset)">居中</a> <a href="#"
+							class='btn middle blue' data-command='justifyRight'
+							onclick="changeStyle(this.dataset)">右</a> <a href="#"
+							class='btn right blue' data-command='justifyFull'
+							onclick="changeStyle(this.dataset)">两端</a>
+					</div>
+					<div class="btn-group">
+						<a href="#" class='btn left grey' data-command='indent'
+							onclick="changeStyle(this.dataset)">右缩进</a> <a href="#"
+							class='btn right grey' data-command='outdent'
+							onclick="changeStyle(this.dataset)">左缩进</a>
+					</div>
+
+					<div class="btn-group">
+						<a href="#" class='btn left grey' data-command='superscript'
+							onclick="changeStyle(this.dataset)">上标</a> <a href="#"
+							class='btn right grey' data-command='subscript'
+							onclick="changeStyle(this.dataset)">下标</a>
+					</div>
+					<br>
+					<div class="btn-group">
+						<a href="#" class='btn left blue' data-command='selectAll'
+							onclick="changeStyle(this.dataset)">全选</a> <a href="#"
+							class='btn middle blue' data-command='copy'
+							onclick="changeStyle(this.dataset)">复制</a> <a href="#"
+							class='btn right blue' data-command='cut'
+							onclick="changeStyle(this.dataset)">剪切</a>
+					</div>
+					<div class="btn-group">
+						<a href="#" class='btn left grey' data-command='fontSize'
+							data-value="1" onclick="changeStyle(this.dataset)">1号</a> <a
+							href="#" class='btn middle grey' data-command='fontSize'
+							data-value="2" onclick="changeStyle(this.dataset)">2号</a> <a
+							href="#" class='btn middle grey' data-command='fontSize'
+							data-value="3" onclick="changeStyle(this.dataset)">3号</a> <a
+							href="#" class='btn middle grey' data-command='fontSize'
+							data-value="4" onclick="changeStyle(this.dataset)">4号</a> <a
+							href="#" class='btn middle grey' data-command='fontSize'
+							data-value="5" onclick="changeStyle(this.dataset)">5号</a> <a
+							href="#" class='btn middle grey' data-command='fontSize'
+							data-value="6" onclick="changeStyle(this.dataset)">6号</a> <a
+							href="#" class='btn right grey' data-command='fontSize'
+							data-value="7" onclick="changeStyle(this.dataset)">7号</a>
+					</div>
+					<div class="btn-group">
+						<a href="#" class='btn left blue' data-command='fontName'
+							data-value="宋体" onclick="changeStyle(this.dataset)">宋</a> <a
+							href="#" class='btn middle blue' data-command='fontName'
+							data-value="黑体" onclick="changeStyle(this.dataset)">黑</a> <a
+							href="#" class='btn middle blue' data-command='fontName'
+							data-value="楷体" onclick="changeStyle(this.dataset)">楷</a> <a
+							href="#" class='btn middle blue' data-command='fontName'
+							data-value="仿宋" onclick="changeStyle(this.dataset)">仿宋</a> <a
+							href="#" class='btn right blue' data-command='fontName'
+							data-value="微软雅黑" onclick="changeStyle(this.dataset)">雅黑</a>
+					</div>
+
+					<div class="btn-group">
+						<a href="#" class='btn left' data-command='foreColor'
+							data-value="red" onclick="changeStyle(this.dataset)"
+							style="background-color: red">&nbsp;&nbsp;</a> <a href="#"
+							class='btn middle' data-command='foreColor' data-value="orange"
+							onclick="changeStyle(this.dataset)"
+							style="background-color: orange">&nbsp;&nbsp;</a> <a href="#"
+							class='btn middle' data-command='foreColor' data-value="yellow"
+							onclick="changeStyle(this.dataset)"
+							style="background-color: yellow">&nbsp;&nbsp;</a> <a href="#"
+							class='btn middle' data-command='foreColor' data-value="green"
+							onclick="changeStyle(this.dataset)"
+							style="background-color: green">&nbsp;&nbsp;</a> <a href="#"
+							class='btn middle' data-command='foreColor' data-value="cyan"
+							onclick="changeStyle(this.dataset)"
+							style="background-color: cyan">&nbsp;&nbsp;</a> <a href="#"
+							class='btn middle' data-command='foreColor' data-value="blue"
+							onclick="changeStyle(this.dataset)"
+							style="background-color: blue">&nbsp;&nbsp;</a> <a href="#"
+							class='btn middle' data-command='foreColor' data-value="purple"
+							onclick="changeStyle(this.dataset)"
+							style="background-color: purple">&nbsp;&nbsp;</a>
+					</div>
+					<br>
+					<input type="text" id="addlink">
+					<div class="btn-group">
+						<a href="#" class='btn left blue' data-command='CreateLink'
+							data-value="" id="link">添加链接</a>
+					</div>
+				</div>
+				<div id="text-area" contenteditable="true"></div>
+				<div class="operation clearfix">
+					<a href="#" class='btn left blue last' id="cancel">返回</a> <a
+						href="#" class='btn left blue last' id="submit">发布文章</a>
+
+				</div>
+
+			</div>
+
+
+		</div>
+	</main>
+
+	<!--==========================
+    Footer
+  ============================-->
+	<footer id="footer">
+		<div class="container">
+			<div class="copyright">Copyright &copy; 2019.计算机协会 版权所有</div>
+			<div class="credits"></div>
+		</div>
+	</footer>
+	<!-- #footer -->
+
+	<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+	<!-- JavaScript  -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/jquery/jquery-migrate.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="lib/easing/easing.min.js"></script>
+	<script src="lib/superfish/hoverIntent.js"></script>
+	<script src="lib/superfish/superfish.min.js"></script>
+	<script src="lib/wow/wow.min.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+	<script src="lib/magnific-popup/magnific-popup.min.js"></script>
+	<script src="lib/sticky/sticky.js"></script>
+	<script src="contact/jqBootstrapValidation.js"></script>
+	<script src="contact/contact_me.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/qianyuhaoEditor.js"></script>
+</body>
+
+</html>

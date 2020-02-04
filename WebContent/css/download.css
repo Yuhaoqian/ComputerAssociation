@@ -1,0 +1,58 @@
+/* 这是资料区的css */
+.content{
+    background-color: rgba(231, 252, 245, 0.432);
+}
+.content2{
+    width: 1200px;
+    background-color: rgba(221, 221, 247, 0.199);
+    height: 900px;
+    margin: 0 auto;
+    /* background-color: rgba(0, 255, 255, 0.192); */
+}
+.list li{
+    list-style: none;
+}
+.list p{
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.fl{
+    float: left;
+}
+.title{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.left{
+    width:600px;
+    height: 900px;
+}
+.right{
+    width: 600px;
+    height: 900px;
+}
+strong {
+    font-weight: bold;
+}
+.list .idx{
+    line-height: 2em;
+    font-family: 微软雅黑, "Microsoft YaHei";
+    font-size: 14px;
+    background-color: rgb(0, 176, 240);
+    margin-right: 10px;
+}
+.list .name{
+    line-height: 2em;
+    font-family: 微软雅黑, "Microsoft YaHei";
+    font-size: 14px;
+}
+.list .link{
+    padding-left: 30px;
+    font-size: 12px;
+    color: rgb(0, 102, 204);
+}
