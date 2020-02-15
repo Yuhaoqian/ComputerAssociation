@@ -7,6 +7,7 @@
 - DBUtils and C3P0 connection pooling techniques are used for database operations. 
 - In order to realize the user to edit the article in the browser, the author developed a WEB rich text editor.
 -  The main function modules of the system are user information management module, news information sharing module, community financial management module and community information management module. 
+-  You can access the website [here](www.qyh-xx.top/ComputerAssociation).
 
 # 2 Diagrams
 
