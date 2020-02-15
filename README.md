@@ -15,7 +15,7 @@ There are some diagrams helping you understand the system.
 ### 2.1 Use case diagram
 ![](images/usecase.png)
 ### 2.2 System structure
-![](images/system structure.png)
+![](images/systemstructure.png)
 ### 2.3 Layered system
 ![](images/layeredsystem.png)
 
